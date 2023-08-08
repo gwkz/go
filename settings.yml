@@ -78,7 +78,7 @@ server:
   # If your instance owns a /etc/searxng/settings.yml file, then set the following
   # values there.
 
-  secret_key: "8d05d9d77ee955e0e0a0711e641f49f8"  # Is overwritten by ${SEARXNG_SECRET}
+  secret_key: "d3b508c6b252e9e2c095b306258eb3b9"  # Is overwritten by ${SEARXNG_SECRET}
   # Proxying image results through searx
   image_proxy: false
   # 1.0 and 1.1 are supported
