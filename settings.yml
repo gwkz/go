@@ -84,7 +84,7 @@ server:
   # If your instance owns a /etc/searxng/settings.yml file, then set the following
   # values there.
 
-  secret_key: "a9af49f0507b595bc7d5f59e5801b852"  # Is overwritten by ${SEARXNG_SECRET}
+  secret_key: "ultrasecretkey"  # Is overwritten by ${SEARXNG_SECRET}
   # Proxying image results through searx
   image_proxy: false
   # 1.0 and 1.1 are supported
@@ -658,12 +658,10 @@ engines:
     categories: [general]
 
   - name: duckduckgo
-    disabled: true
     engine: duckduckgo
     shortcut: ddg
 
   - name: duckduckgo images
-    disabled: true
     engine: duckduckgo_extra
     categories: [images, web]
     ddg_category: images
@@ -671,7 +669,6 @@ engines:
     disabled: true
 
   - name: duckduckgo videos
-    disabled: true
     engine: duckduckgo_extra
     categories: [videos, web]
     ddg_category: videos
@@ -679,7 +676,6 @@ engines:
     disabled: true
 
   - name: duckduckgo news
-    disabled: true
     engine: duckduckgo_extra
     categories: [news, web]
     ddg_category: news
@@ -687,7 +683,6 @@ engines:
     disabled: true
 
   - name: duckduckgo weather
-    disabled: true
     engine: duckduckgo_weather
     shortcut: ddw
     disabled: true
